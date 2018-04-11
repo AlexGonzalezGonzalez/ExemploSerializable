@@ -5,11 +5,13 @@
  */
 package exemploclasesobxetos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author agonzalezgonzalez
  */
-public class Ordenador {
+public class Ordenador implements Serializable{
 
     private Cpu procesador;
     private Pantalla pantalla;

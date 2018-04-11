@@ -5,11 +5,13 @@
  */
 package exemploclasesobxetos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author agonzalezgonzalez
  */
-public class Pantalla {
+public class Pantalla implements Serializable{
     private String marca;
     private float pulgadas;
 

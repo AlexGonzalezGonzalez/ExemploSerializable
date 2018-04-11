@@ -5,11 +5,13 @@
  */
 package exemploclasesobxetos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author agonzalezgonzalez
  */
-public class Cpu {
+public class Cpu implements Serializable{
     private int velocidade;
     private int memoria;
 

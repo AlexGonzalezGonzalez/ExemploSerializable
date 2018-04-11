@@ -5,11 +5,13 @@
  */
 package exemploclasesobxetos;
 
+import java.io.Serializable;
+
 /**
  *
  * @author agonzalezgonzalez
  */
-public class Rato {
+public class Rato implements Serializable{
     private String tipo;
     private Mouse mouse;
     public Rato() {
