@@ -89,7 +89,7 @@ public class Metodos {
     }
 
     public void engadir(String ficheiro) {
-        /*Yo acaba el fichero escribiendo un nulo para que no sucediese el IOEx.
+        /*Yo acababa el fichero escribiendo un nulo para que no sucediese el IOEx.
           Para añadir la idea era salvar todas las lineas de codigo(cabecera incluida) 
           Las que salvava comparaba por nulos asi no cogia el ultimo nulo
           Y escribia(añadiendo) y al final otro nulo para salir de la proxima lectura
